@@ -34,7 +34,7 @@ const Navbar: React.FC = () => {
               <Award className="w-6 h-6" />
             </div>
             <span className="font-sans font-bold text-xl tracking-tight text-text dark:text-white">
-              ACM<span className="text-primary">Certify</span>
+              ACM<span className="text-primary"> Get My Certificate</span>
             </span>
           </Link>
 

@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="font-sans font-bold text-xl mb-4 text-text dark:text-white">ACM<span className="text-primary">Certify</span></h3>
+            <h3 className="font-sans font-bold text-xl mb-4 text-text dark:text-white">ACM<span className="text-primary"> Get My Certificate</span></h3>
             <p className="text-slate-500 dark:text-slate-400 font-mono text-sm leading-relaxed max-w-xs">
               Empowering students with verifiable skills. Join our workshops, earn certificates, and build your future career.
             </p>
@@ -17,7 +17,6 @@ const Footer: React.FC = () => {
             <h4 className="font-sans font-bold text-lg mb-4 text-text dark:text-white">Platform</h4>
             <ul className="space-y-2 text-sm font-mono text-slate-500 dark:text-slate-400">
               <li><a href="#/verify" className="hover:text-primary transition-colors">Verification</a></li>
-              <li><a href="#" className="hover:text-primary transition-colors">Hall of Fame</a></li>
             </ul>
           </div>
 
