@@ -22,7 +22,6 @@ const Navbar: React.FC = () => {
 
   const navLinks = [
     { name: 'Home', path: '/' },
-    { name: 'Workshops', path: '/workshops' },
     { name: 'Verify Certificate', path: '/verify' },
   ];
 
@@ -52,9 +51,7 @@ const Navbar: React.FC = () => {
               </Link>
             ))}
             
-            <Button size="sm" variant="primary" href="/workshops">
-              Get Started
-            </Button>
+
           </div>
 
           {/* Mobile menu button */}

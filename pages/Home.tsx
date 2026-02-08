@@ -1,7 +1,6 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
-import SocialProof from '../components/SocialProof';
 import Button from '../components/ui/Button';
 import AnimatedSection from '../components/ui/AnimatedSection';
 import { motion } from 'framer-motion';
@@ -16,7 +15,6 @@ const Home: React.FC = () => {
     >
       <Hero />
       <Features />
-      <SocialProof />
       
       {/* Sticky Bottom CTA for Mobile or General CTA Section */}
       <section className="py-20">

@@ -29,11 +29,8 @@ const Hero: React.FC = () => {
                 Join premium workshops, master cutting-edge technologies, and receive verifiable blockchain-backed certificates issued by the ACM Chapter.
               </p>
               <div className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
-                <Button href="/workshops" size="lg" className="w-full sm:w-auto shadow-xl shadow-primary/20">
-                  Browse Workshops <ArrowRight className="ml-2 w-5 h-5" />
-                </Button>
-                <Button href="/verify" variant="outline" size="lg" className="w-full sm:w-auto">
-                  Verify Certificate
+                <Button href="/verify" size="lg" className="w-full sm:w-auto shadow-xl shadow-primary/20">
+                  Verify Certificate <ArrowRight className="ml-2 w-5 h-5" />
                 </Button>
               </div>
               

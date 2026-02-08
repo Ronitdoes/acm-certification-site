@@ -4,7 +4,6 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Verify from './pages/Verify';
-import Workshops from './pages/Workshops';
 import { AnimatePresence } from 'framer-motion';
 import ThreeBackground from './components/ThreeBackground';
 import { ThemeProvider } from './context/ThemeContext';
@@ -32,7 +31,6 @@ const App: React.FC = () => {
               <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/verify" element={<Verify />} />
-                <Route path="/workshops" element={<Workshops />} />
               </Routes>
             </AnimatePresence>
           </main>

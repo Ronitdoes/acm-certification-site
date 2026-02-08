@@ -16,7 +16,6 @@ const Footer: React.FC = () => {
           <div>
             <h4 className="font-sans font-bold text-lg mb-4 text-text dark:text-white">Platform</h4>
             <ul className="space-y-2 text-sm font-mono text-slate-500 dark:text-slate-400">
-              <li><a href="#/workshops" className="hover:text-primary transition-colors">Workshops</a></li>
               <li><a href="#/verify" className="hover:text-primary transition-colors">Verification</a></li>
               <li><a href="#" className="hover:text-primary transition-colors">Hall of Fame</a></li>
             </ul>
